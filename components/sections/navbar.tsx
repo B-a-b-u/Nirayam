@@ -118,17 +118,17 @@ const NavBar = () => {
           >
             <div className="transition-transform duration-300 group-hover:scale-105">
               <Image
-                src="/logo.png"
+                src="/logo.svg"
                 alt={`${BRAND_NAME} Logo`}
-                width={100}
-                height={100}
+                width={36}
+                height={36}
                 priority
               />
             </div>
 
             <div className="flex flex-col leading-none">
-              <span className="font-heading text-lg font-bold text-heading tracking-tight">
-                Nirayam
+              <span className="font-heading tracking-wider text-lg font-bold text-heading tracking-tight">
+                NIRAYAM
               </span>
               <span className="text-[10px] uppercase tracking-widest text-muted font-medium mt-0.5">
                 Technologies

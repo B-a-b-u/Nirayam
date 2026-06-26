@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Phone, Mail, Clock } from "lucide-react";
 
 export default function Footer() {
-  const BRAND_NAME = "Nirayam";
+  const BRAND_NAME = " NIRAYAM";
   const CURRENT_YEAR = new Date().getFullYear();
 
   const handleFooterScroll = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
@@ -60,14 +60,14 @@ export default function Footer() {
               className="flex items-center gap-3 group"
             >
               <Image
-                src="/logo.png"
+                src="/footer-logo.svg"
                 alt={`${BRAND_NAME} Logo`}
-                width={38}
-                height={38}
+                width={32}
+                height={32}
                 className="transition-transform duration-300 group-hover:scale-105"
               />
               <div className="flex flex-col leading-none">
-                <span className="font-heading font-bold text-base tracking-tight">{BRAND_NAME}</span>
+                <span className="font-heading tracking-[0.14em] font-bold text-base">{BRAND_NAME}</span>
                 <span className="text-[10px] uppercase tracking-widest text-muted mt-0.5">Technologies</span>
               </div>
             </Link>
