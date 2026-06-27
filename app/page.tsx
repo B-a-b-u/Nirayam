@@ -1,6 +1,6 @@
 import About from "@/components/sections/about";
 import CaseStudies from "@/components/sections/case-studies";
-import Contact from "@/components/sections/contact";
+import Contact from "@/components/sections/contact/contact";
 import HeroSection from "@/components/sections/hero";
 import Process from "@/components/sections/process";
 import Services from "@/components/sections/services/services";

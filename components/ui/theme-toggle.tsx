@@ -23,7 +23,6 @@ export function ThemeToggle() {
   }
 
   const isDark = theme === "dark";
-  console.log("Theme :  ",theme)
   return (
     <Button
       variant="outline"

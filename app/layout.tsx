@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toaster } from "@/components/ui/sonner";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/sections/navbar";
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
 
   description:
     "Nirayam Technologies helps businesses build scalable web applications, mobile apps, AI automation solutions, and custom software systems.",
-
+  
   keywords: [
     "web development",
     "mobile app development",
@@ -96,7 +97,7 @@ export default function RootLayout({
             <Footer />
           </>
         </ThemeProvider>
-
+<Toaster richColors position="top-right" />
       </body>
     </html>
   );
