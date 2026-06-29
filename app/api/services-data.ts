@@ -12,7 +12,7 @@ export const services: Service[] = [
     title: "Web Development",
     description:
       "Fast, scalable and SEO-optimized websites, dashboards and custom web applications tailored to your business.",
-    image: "/file.svg",
+    image: "/services/web_dev.svg",
     features: [
       "Corporate Websites",
       "Landing Pages",
@@ -30,7 +30,7 @@ export const services: Service[] = [
     title: "Mobile Applications",
     description:
       "Cross-platform mobile applications with native-like performance for Android and iOS.",
-    image: "/file.svg",
+    image: "/services/app_dev.svg",
     features: [
       "React Native Development",
       "Android & iOS Apps",
@@ -48,7 +48,7 @@ export const services: Service[] = [
     title: "AI Solutions",
     description:
       "AI-powered software that automates workflows, understands documents and delivers intelligent insights.",
-        image: "/file.svg",
+        image: "/services/ai_solutions.svg",
     features: [
       "Custom AI Chatbots",
       "RAG Applications",
@@ -66,7 +66,7 @@ export const services: Service[] = [
     title: "Business Automation",
     description:
       "Automate repetitive processes and connect your business systems to improve productivity.",
-        image: "/file.svg",
+        image: "/services/ai_automation.svg",
     features: [
       "Workflow Automation",
       "CRM Integration",

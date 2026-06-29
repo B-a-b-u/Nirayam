@@ -9,48 +9,50 @@ export default function TrustAnchor() {
     { value: "3", label: "Countries Served" },
   ];
 
-  // Grayscale Placeholder SVG Logos to represent past freelance systems cleanly
+  // Refined for a premium, clean agency feel without raw unstyled emojis
   const mockLogos = [
-    "Acme Corp", "Pulse AI", "Apex Systems", "Vercel Labs", "CloudCraft", "Echo Studio"
+    "Modern Technology", 
+    "Security First", 
+    "Performance Focused", 
+    "Transparent Process", 
+    "Responsive Design", 
+    "Custom Solutions"
   ];
 
   return (
     <section
       id="trust-anchor"
-      className="w-full bg-background py-16 px-6 border-t border-border/40 text-heading transition-colors duration-300 overflow-hidden"
+      className="w-full bg-background py-16 px-4 sm:px-6 md:py-20 lg:px-8 border-t border-border/40 text-heading transition-colors duration-300 overflow-hidden"
     >
       <div className="mx-auto max-w-7xl">
         
         {/* Top Header Text Overlay */}
-        <div className="w-full text-center mb-10">
-          <p className="text-xs font-semibold uppercase tracking-widest text-muted/80">
-            Trusted by founders and engineering teams globally.
-          </p>
-        </div>
+        
 
-        {/* INFINITE SCROLLING LOGO MARQUEE WRAPPER */}
-        <div className="relative w-full overflow-hidden py-4 [mask-image:linear-gradient(to_right,transparent_0%,#000_15%,#000_85%,transparent_100%)]">
-          {/* Flex row container is duplicated inside to ensure the loop remains unbroken */}
-          <div className="flex w-[200%] gap-16 items-center animate-marquee whitespace-nowrap">
+        {/* 🚀 FIXED INFINITE SCROLLING MARQUEE WRAPPER */}
+        <div className="relative w-full overflow-hidden py-4 [mask-image:linear-gradient(to_right,transparent_0%,#000_10%,#000_90%,transparent_100%)]">
+          
+          {/* Flex track utilizes exact fit requirements instead of percentage boxing */}
+          <div className="flex w-max gap-12 sm:gap-16 items-center animate-marquee whitespace-nowrap will-change-transform">
             
-            {/* Set 1 */}
-            <div className="flex justify-around w-1/2 items-center gap-16 shrink-0">
+            {/* Track Loop Set 1 */}
+            <div className="flex items-center gap-12 sm:gap-16 shrink-0">
               {mockLogos.map((logo, idx) => (
                 <div 
-                  key={`set1-${idx}`} 
-                  className="text-base md:text-lg font-heading font-bold text-neutral-400 dark:text-neutral-500 tracking-wider uppercase opacity-75 select-none hover:text-primary transition-colors duration-200"
+                  key={`track1-${idx}`} 
+                  className="text-sm sm:text-base md:text-lg font-heading font-bold text-neutral-400/80 dark:text-neutral-500/80 tracking-wider uppercase opacity-80 select-none hover:text-primary transition-colors duration-200"
                 >
                   {logo}
                 </div>
               ))}
             </div>
 
-            {/* Set 2 (Identical Duplicate for continuous scrolling seamlessness) */}
-            <div className="flex justify-around w-1/2 items-center gap-16 shrink-0" aria-hidden="true">
+            {/* Track Loop Set 2 (Identical seamless twin to eliminate spatial stutter) */}
+            <div className="flex items-center gap-12 sm:gap-16 shrink-0" aria-hidden="true">
               {mockLogos.map((logo, idx) => (
                 <div 
-                  key={`set2-${idx}`} 
-                  className="text-base md:text-lg font-heading font-bold text-neutral-400 dark:text-neutral-500 tracking-wider uppercase opacity-75 select-none hover:text-primary transition-colors duration-200"
+                  key={`track2-${idx}`} 
+                  className="text-sm sm:text-base md:text-lg font-heading font-bold text-neutral-400/80 dark:text-neutral-500/80 tracking-wider uppercase opacity-80 select-none hover:text-primary transition-colors duration-200"
                 >
                   {logo}
                 </div>
@@ -60,24 +62,8 @@ export default function TrustAnchor() {
           </div>
         </div>
 
-        {/* SOLID METRICS MATRIX SUB-GRID BANNER */}
-        <div className="mt-16 max-w-4xl mx-auto border-t border-border/40 pt-10">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-            {stats.map((stat, idx) => (
-              <div 
-                key={idx} 
-                className="flex flex-col items-center justify-center p-4 text-center rounded-2xl bg-card border border-border/50 shadow-xs group hover:border-primary/20 hover:bg-background/40 transition-all duration-300"
-              >
-                <span className="block font-heading text-3xl font-extrabold text-primary tracking-tight md:text-4xl transition-transform duration-300 group-hover:scale-103">
-                  {stat.value}
-                </span>
-                <span className="block text-xs font-semibold text-muted uppercase tracking-wider mt-2">
-                  {stat.label}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* SOLID METRICS MATRIX BANNER GRID */}
+        
 
       </div>
     </section>

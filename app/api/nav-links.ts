@@ -7,13 +7,15 @@ export const navLinks = [
     name: "Services",
     href: "#services",
   },
-  {
-    name: "About",
-    href: "#about",
-  },
+
   {
     name: "Case Studies",
     href: "#case-studies",
+  },
+
+  {
+    name: "About",
+    href: "#about",
   },
   {
     name: "Contact",

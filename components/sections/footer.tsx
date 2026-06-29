@@ -60,7 +60,7 @@ export default function Footer() {
               className="flex items-center gap-3 group"
             >
               <Image
-                src="/footer-logo.svg"
+                src="/logo.png"
                 alt={`${BRAND_NAME} Logo`}
                 width={32}
                 height={32}
@@ -171,7 +171,7 @@ export default function Footer() {
               <div className="space-y-2 pt-1 border-t border-border/40">
                 <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Phone size={12} className="text-primary shrink-0" />
-                  <span>+91 98765 43210</span>
+                  <span>+91 80722 71874.</span>
                 </a>
                 <a href="mailto:hello@nirayam.tech" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Mail size={12} className="text-primary shrink-0" />

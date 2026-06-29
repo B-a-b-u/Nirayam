@@ -14,7 +14,7 @@ export const contactInfo = [
   },
   {
     title: "Phone",
-    value: "+91 XXXXX XXXXX",
+    value: "+91 80722 71874.",
     description: "Mon - Fri",
     icon: Phone,
   },

@@ -1,27 +1,14 @@
 "use client";
 
-import {
-  DollarSign,
-  RefreshCw,
-  ShieldCheck,
-  Zap,
-} from "lucide-react";
-
+import Image from "next/image";
 import { WhyChooseItem } from "@/app/api/why-choose-data";
 
-const icons = {
-  zap: Zap,
-  dollar: DollarSign,
-  refresh: RefreshCw,
-  shield: ShieldCheck,
-};
 
 type Props = {
   item: WhyChooseItem;
 };
 
 export default function WhyCard({ item }: Props) {
-  const Icon = icons[item.icon];
 
   return (
     <div
@@ -69,15 +56,28 @@ export default function WhyCard({ item }: Props) {
             items-center
             justify-center
             rounded-xl
-            border
-            border-border
-            bg-background
+            
+   
             transition-all
             group-hover:border-primary/20
             group-hover:bg-primary/5
           "
         >
-          <Icon className="h-5 w-5 text-primary" />
+          <Image
+          src={item.image}
+          alt={item.title}
+          width={170}
+          height={170}
+          priority={false}
+          className="
+            h-28
+            w-28
+            object-contain
+            transition-transform
+            duration-300
+            group-hover:scale-105
+          "
+        />
         </div>
 
         <div>

@@ -66,8 +66,8 @@ const ServiceCard = ({
         <Image
           src={service.image}
           alt={service.title}
-          width={140}
-          height={140}
+          width={170}
+          height={170}
           priority={false}
           className="
             h-28
