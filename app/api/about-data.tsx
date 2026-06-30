@@ -20,14 +20,14 @@ export const aboutContent = {
     "We started Nirayam Tech with a simple belief: every business deserves access to high-quality software engineering without the complexity, delays and inflated costs that often come with traditional software development.",
 
   vision: {
-    icon: Eye,
+    image: "/about/vision.svg",
     title: "Vision",
     description:
       "To become a trusted technology partner helping businesses worldwide accelerate growth through innovative software and artificial intelligence.",
   },
 
   mission: {
-    icon: Target,
+     image: "/about/mission.svg",
     title: "Mission",
     description:
       "Deliver scalable, maintainable and user-centric digital solutions that create measurable business value for every client.",
@@ -35,28 +35,28 @@ export const aboutContent = {
 
   values: [
     {
-      icon: Lightbulb,
+       image: "/about/innovation.svg",
       title: "Innovation",
       description:
         "Building with modern technologies that create long-term business value.",
     },
 
     {
-      icon: HeartHandshake,
+       image: "/about/partnership.svg",
       title: "Partnership",
       description:
         "We believe successful software comes from strong collaboration and trust.",
     },
 
     {
-      icon: Target,
+       image: "/about/quality.svg",
       title: "Quality",
       description:
         "Every product is engineered with performance, security and scalability in mind.",
     },
 
     {
-      icon: Eye,
+       image: "/about/transparency.svg",
       title: "Transparency",
       description:
         "Open communication, predictable timelines and complete project visibility.",

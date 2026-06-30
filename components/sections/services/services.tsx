@@ -106,7 +106,7 @@ export default function Services() {
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2.5 text-xs text-heading/90">
                             <div className="flex h-4 w-4 shrink-0 items-center justify-center rounded-md border border-border bg-background text-emerald-500 mt-0.5 shadow-3xs">
-                              <CheckCircle2 size={10} />
+                              <CheckCircle2 className="text-success" />
                             </div>
                             <span className="leading-tight font-medium">{feature}</span>
                           </li>

@@ -60,7 +60,7 @@ export default function Footer() {
               className="flex items-center gap-3 group"
             >
               <Image
-                src="/logo.png"
+                src="/footer-logo.svg"
                 alt={`${BRAND_NAME} Logo`}
                 width={32}
                 height={32}
@@ -175,10 +175,10 @@ export default function Footer() {
                 </a>
                 <a href="mailto:hello@nirayam.tech" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Mail size={12} className="text-primary shrink-0" />
-                  <span>hello@nirayam.tech</span>
+                  <span>nirayamtechnologies@gmail.com</span>
                 </a>
                 <div className="flex items-center gap-2 text-muted/80">
-                  <Clock size={12} className="text-neutral-400 shrink-0" />
+                  <Clock size={12} className="text-primary shrink-0" />
                   <span>SLA Response &lt; 24h</span>
                 </div>
               </div>

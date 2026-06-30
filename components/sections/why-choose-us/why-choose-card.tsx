@@ -48,36 +48,14 @@ export default function WhyCard({ item }: Props) {
       />
 
       <div className="relative z-10 flex flex-col gap-5">
-        <div
-          className="
-            flex
-            h-11
-            w-11
-            items-center
-            justify-center
-            rounded-xl
-            
-   
-            transition-all
-            group-hover:border-primary/20
-            group-hover:bg-primary/5
-          "
-        >
+        <div className="flex h-20 w-20 items-center justify-center rounded-xl">
           <Image
-          src={item.image}
-          alt={item.title}
-          width={170}
-          height={170}
-          priority={false}
-          className="
-            h-28
-            w-28
-            object-contain
-            transition-transform
-            duration-300
-            group-hover:scale-105
-          "
-        />
+            src={item.image}
+            alt={item.title}
+            width={100}
+            height={100}
+            className="object-contain transition-transform duration-300 group-hover:scale-105"
+          />
         </div>
 
         <div>

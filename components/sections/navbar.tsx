@@ -108,9 +108,9 @@ export default function NavBar() {
             >
               <div className="relative transition-transform duration-300 group-hover:scale-103">
                 <Image
-                  src="/logo.png"
+                  src="/logo.svg"
                   alt={`${BRAND_NAME} Logo`}
-                  width={isScrolled ? 34 : 38} // Slightly upscaled
+                  width={isScrolled ? 34 : 38} 
                   height={isScrolled ? 34 : 38}
                   priority
                   className="transition-all duration-500 ease-in-out"
@@ -121,7 +121,7 @@ export default function NavBar() {
                 <span className="font-heading tracking-wider text-lg font-bold text-heading tracking-tight transition-all duration-300">
                   {BRAND_NAME}
                 </span>
-                <span className="text-[9px] uppercase tracking-widest text-muted font-semibold mt-0.5">
+                <span className="text-[9px] uppercase tracking-[0.17em] text-muted font-semibold mt-0.5">
                   Technologies
                 </span>
               </div>
@@ -139,14 +139,14 @@ export default function NavBar() {
                     href={item.href}
                     onClick={(e) => handleSmoothScroll(e, item.href)}
                     className={`relative px-4 py-2 text-xs font-bold uppercase tracking-wider transition-colors duration-300 rounded-full select-none ${
-                      isActive ? "text-primary" : "text-muted hover:text-heading"
+                      isActive ? "text-white" : "text-muted hover:text-heading"
                     }`}
                   >
                     {/* The Kinetic Sliding Sliding Background Pill */}
                     {isActive && (
                       <motion.span
                         layoutId="activeTabPill"
-                        className="absolute inset-0 z-0 rounded-full bg-primary/10 dark:bg-primary/20 border border-primary/20"
+                        className="absolute inset-0 z-0 rounded-full bg-secondary dark:bg-accent border border-primary/20"
                         transition={{ type: "spring", stiffness: 380, damping: 30 }}
                       />
                     )}

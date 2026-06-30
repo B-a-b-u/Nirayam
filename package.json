@@ -34,9 +34,12 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.185.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "three": "^0.185.0",
+    "typescript": "^5",
+    "vanta": "^0.5.24"
   }
 }

@@ -11,56 +11,59 @@ import {
   contactInfo,
   whyWorkWithUs,
 } from "@/app/api/contact-data";
+import Image from "next/image";
 
 export default function ContactInfo() {
   return (
     <div className="flex flex-col gap-8">
 
-      
+
       {/* Contact Cards */}
 
       <div className="grid gap-4 sm:grid-cols-2">
 
         {contactInfo.map((item) => {
-          const Icon = item.icon;
 
           return (
             <div
               key={item.title}
-              className="
-                rounded-2xl
-                border
-                border-border
-                bg-card
-                p-5
-                transition-all
-                duration-300
-                hover:-translate-y-1
-                hover:border-primary/30
-              "
+             className="
+group
+    rounded-2xl
+    border
+    border-border
+    bg-card
+    p-6
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:border-primary/30
+    hover:shadow-lg
+    hover:shadow-primary/5
+"
             >
 
               <div
-                className="
-                  mb-4
-                  flex
-                  h-12
-                  w-12
-                  items-center
-                  justify-center
-                  rounded-xl
-                  bg-primary/10
-                "
-              >
-                <Icon
-                  className="
-                    h-5
-                    w-5
-                    text-primary
-                  "
-                />
-              </div>
-
+  className="
+    mb-6
+    flex
+    h-28
+    w-28
+    items-center
+    justify-center
+    rounded-3xl
+   
+    p-5
+  "
+>
+  <Image
+    src={item.image}
+    alt={item.title}
+    width={100}
+    height={100}
+    className="object-contain"
+  />
+</div>
               <h3
                 className="
                   text-lg
@@ -139,7 +142,7 @@ export default function ContactInfo() {
                   h-5
                   w-5
                   shrink-0
-                  text-primary
+                  text-success
                 "
               />
 
@@ -157,7 +160,7 @@ export default function ContactInfo() {
 
       </div>
 
-      
+
     </div>
   );
 }
