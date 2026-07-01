@@ -14,10 +14,10 @@ export const aboutContent = {
     "We partner with startups, growing companies and enterprises to build scalable software, AI-powered solutions and automation systems that solve real business problems.",
 
   whoWeAre:
-    "Nirayam Tech is a software development company focused on delivering modern digital products that combine exceptional user experience with reliable engineering. We specialize in custom web applications, mobile apps, AI solutions and workflow automation.",
+    "Nirayam Technologies is a software development company focused on delivering modern digital products that combine exceptional user experience with reliable engineering. We specialize in custom web applications, mobile applications, AI solutions and workflow automation using AI.",
 
   whyStarted:
-    "We started Nirayam Tech with a simple belief: every business deserves access to high-quality software engineering without the complexity, delays and inflated costs that often come with traditional software development.",
+    "We started Nirayam Technologies with a simple belief: Businesses shouldn't have to adapt to software instead software should adapt to the way businesses work. That's why we build tailored software solutions that fit your business, helping you work smarter, grow faster, and innovate with confidence.",
 
   vision: {
     image: "/about/vision.svg",

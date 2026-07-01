@@ -67,7 +67,7 @@ export default function Services() {
           </p>
         </div>
 
-        {/* 🍱 ASYMMETRICAL BENTO GRID */}
+        {/* ASYMMETRICAL BENTO GRID */}
         <div className="mt-15 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 items-start">
           {services.map((service) => {
             const isExpanded = expandedCardId === service.id;
@@ -91,7 +91,7 @@ export default function Services() {
                     {service.description}
                   </p>
 
-                  {/* 🔓 THE INLINE CAPABILITIES ACCORDION TRACK */}
+                  {/* THE INLINE CAPABILITIES ACCORDION TRACK */}
                   <div
                     className={`grid transition-all duration-500 ease-in-out ${isExpanded
                         ? "grid-rows-[1fr] opacity-100 mb-6 pb-4 border-t border-border/40 pt-4"
@@ -116,7 +116,7 @@ export default function Services() {
                   </div>
                 </div>
 
-                {/* 🎨 THE BLENDED SVG ILLUSTRATION (Locks cleanly to the bottom right) */}
+                {/* THE BLENDED SVG ILLUSTRATION (bottom right) */}
                 <div className={`absolute w-36 h-36 pointer-events-none transition-all duration-500 ease-in-out z-0 right-[-15px] bottom-[-15px] ${isExpanded
                     ? "opacity-5 scale-90 blur-xs"
                     : "opacity-20 dark:opacity-40 group-hover:opacity-100 group-hover:scale-103"
@@ -130,13 +130,13 @@ export default function Services() {
                   />
                 </div>
 
-                {/* 🕹️ BOTTOM-LEFT INTERACTIVE INTERACTION LAYER */}
+                {/* BOTTOM-LEFT INTERACTIVE INTERACTION LAYER */}
                 <div className="relative z-10 mt-auto pt-4 border-t border-border/5 flex items-center justify-between">
                   <button
                     onClick={() => toggleExpand(service.id)}
                     className={`h-9 px-4 rounded-xl border font-bold text-[10px] uppercase tracking-widest flex items-center gap-2 transition-all duration-300 shadow-3xs w-auto ${isExpanded
                         ? "bg-error text-white border-error hover:bg-error/30"
-                        : "bg-secondary border-border text-heading backdrop-blur-xs hover:bg-card hover:text-primary hover:border-border-hover group-hover:border-primary/30"
+                        : "bg-secondary border-border text-white backdrop-blur-xs hover:bg-card hover:text-primary hover:border-border-hover group-hover:border-primary/30"
                       }`}
                   >
                     <span>{isExpanded ? "Close" : "Explore"}</span>

@@ -20,7 +20,7 @@ export const processSteps: ProcessStep[] = [
     number: "02",
     title: "Planning & Architecture",
     description:
-      "We deliver a comprehensive project blueprint. This includes interactive Figma user flows, Next.js database schemas, and explicit phase-by-phase delivery milestones.",
+      "We deliver a comprehensive project blueprint. This includes interactive user flows, database schemas, and explicit phase-by-phase delivery milestones.",
     icon: <Map className="h-4 w-4" />,
   },
   {

@@ -5,52 +5,47 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* ==========================
-     Brand Colors
-     ========================== */
-  --primary: #ea580c;      /* Primary Orange */
-  --secondary: #f97316;    /* Secondary Orange */
-  --accent: #f59e0b;       /* Accent Amber */
+  /* Brand Colors */
+  --primary: #ea580c;
+  /* Primary Orange */
+  --secondary: #f97316;
+  /* Secondary Orange */
+  --accent: #f59e0b;
+  /* Accent Amber */
 
   /* Extended Brand Palette */
-  --indigo: #7c3aed;       /* Purple Accent */
-  --teal: #fdba74;         /* Soft Amber */
-  --periwinkle: #9a3412;   /* Deep Rust */
+  --indigo: #7c3aed;
+  /* Purple Accent */
+  --teal: #fdba74;
+  /* Soft Amber */
+  --periwinkle: #9a3412;
+  /* Deep Rust */
 
-  /* ==========================
-     Backgrounds
-     ========================== */
-  --background: #ffffff;
-  --card: #f8fafc;
-  --section: #ffffff;
-  --popover: #ffffff;
 
-  /* ==========================
-     Typography
-     ========================== */
-  --foreground: #111827;
-  --heading: #111827;
-  --body-text: #64748b;
-  --muted-text: #94a3b8;
+/* Backgrounds */
+--background: #fafafa;
+--card: #ffffff;
+--section: #f5f5f5;
+--popover: #ffffff;
 
-  /* ==========================
-     Borders
-     ========================== */
-  --border: #e2e8f0;
-  --input: #e2e8f0;
+/* Typography */
+--foreground: #1c1917;
+--heading: #1c1917;
+--body-text: #57534e;
+--muted-text: #78716c;
+
+  /* Borders */
+--border: #e7e5e4;
+--input: #e7e5e4;
   --ring: #ea580c;
 
-  /* ==========================
-     Semantic Colors
-     ========================== */
+  /* Semantic Colors */
   --success: #16a34a;
   --warning: #d97706;
   --error: #dc2626;
   --info: #2563eb;
 
-  /* ==========================
-     shadcn Variables
-     ========================== */
+  /* shadcn Variables */
   --card-foreground: #111827;
   --popover-foreground: #111827;
 
@@ -84,9 +79,7 @@
 }
 
 .dark {
-  /* ==========================
-     Brand Colors
-     ========================== */
+  /* Brand Colors */
   --primary: #ea580c;
   --secondary: #f97316;
   --accent: #f59e0b;
@@ -95,40 +88,30 @@
   --teal: #fdba74;
   --periwinkle: #9a3412;
 
-  /* ==========================
-     Backgrounds
-     ========================== */
+  /* Backgrounds */
   --background: #0f172a;
   --card: #1e293b;
   --section: #1e293b;
   --popover: #1e293b;
 
-  /* ==========================
-     Typography
-     ========================== */
+  /* Typography */
   --foreground: #f8fafc;
   --heading: #ffffff;
   --body-text: #cbd5e1;
   --muted-text: #64748b;
 
-  /* ==========================
-     Borders
-     ========================== */
+  /* Borders */
   --border: #334155;
   --input: #334155;
   --ring: #f97316;
 
-  /* ==========================
-     Semantic Colors
-     ========================== */
+  /* Semantic Colors */
   --success: #22c55e;
   --warning: #f59e0b;
   --error: #ef4444;
   --info: #3b82f6;
 
-  /* ==========================
-     shadcn Variables
-     ========================== */
+  /* shadcn Variables */
   --card-foreground: #f8fafc;
   --popover-foreground: #f8fafc;
 

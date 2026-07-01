@@ -35,12 +35,7 @@ const HeroSection = () => {
       behavior: "smooth",
     });
 
-    history.replaceState(
-      null,
-      "",
-      `#${sectionId}`
-    );
-  };
+ };
 
   return (
     <section
@@ -167,8 +162,8 @@ const HeroSection = () => {
             "
           >
             We help startups and growing businesses build
-            scalable web applications, mobile apps, AI-powered
-            solutions and automation systems that reduce manual
+            scalable web applications, mobile applications, AI-powered
+            solutions and automation systems using AI that reduce manual
             work, improve efficiency and accelerate growth.
           </p>
 

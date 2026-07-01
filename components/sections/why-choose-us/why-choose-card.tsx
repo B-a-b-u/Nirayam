@@ -48,13 +48,13 @@ export default function WhyCard({ item }: Props) {
       />
 
       <div className="relative z-10 flex flex-col gap-5">
-        <div className="flex h-20 w-20 items-center justify-center rounded-xl">
+        <div className="flex h-30 w-30 self-center items-center rounded-xl">
           <Image
             src={item.image}
             alt={item.title}
-            width={100}
-            height={100}
-            className="object-contain transition-transform duration-300 group-hover:scale-105"
+            width={150}
+            height={150}
+            className="object-contain  transition-transform duration-300 group-hover:scale-105"
           />
         </div>
 

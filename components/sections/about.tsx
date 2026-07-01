@@ -267,9 +267,10 @@ export default function About() {
                                     <div
                                         className="
               flex
-              h-16
-              w-16
+              h-26
+              w-26
               shrink-0
+              self-center
               items-center
               justify-center
               rounded-xl
@@ -378,7 +379,6 @@ export default function About() {
         "
                             >
 
-                                {/* Decorative Number */}
 
                                 
                                 {/* Decorative Background */}
@@ -414,7 +414,7 @@ export default function About() {
                                         width={140}
                                         height={140}
                                         className="
-              h-28
+              h-25
               w-auto
               object-contain
               transition-transform

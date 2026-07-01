@@ -9,13 +9,13 @@ export const whyChooseData: WhyChooseItem[] = [
     image: "whychooseus/fast-delivery.svg",
     title: "Fast Delivery",
     description:
-      "Launch your MVP or product in weeks instead of months through agile development and streamlined engineering workflows.",
+      "Launch your product or MVP in weeks instead of months through agile development and streamlined engineering workflows.",
   },
   {
     image: "whychooseus/price.svg",
     title: "Transparent Pricing",
     description:
-      "Fixed-price engagements or milestone-based delivery with complete visibility. No hidden costs or unexpected surprises.",
+      "Milestone-based delivery with complete visibility. No hidden costs or unexpected surprises.",
   },
   {
     image: "whychooseus/progress.svg",
@@ -27,6 +27,6 @@ export const whyChooseData: WhyChooseItem[] = [
     image: "whychooseus/partnership.svg",
     title: "Long-Term Partnership",
     description:
-      "Beyond launch, we provide maintenance, feature enhancements, infrastructure support, and continuous technical guidance.",
+      "Beyond launch, we provide maintenance, infrastructure support and continuous technical guidance.",
   },
 ];

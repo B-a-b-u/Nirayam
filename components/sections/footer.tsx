@@ -23,7 +23,7 @@ export default function Footer() {
         behavior: "smooth",
       });
 
-      window.history.pushState(null, "", href);
+
     }
   };
 
@@ -38,7 +38,7 @@ export default function Footer() {
     { name: "Home", href: "#hero" },
     { name: "Services", href: "#services" },
     { name: "About", href: "#about" },
-    { name: "Case Studies", href: "#portfolio" },
+    { name: "Case Studies", href: "#case-studies" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -46,10 +46,7 @@ export default function Footer() {
     <footer className="w-full border-t border-border bg-background text-heading transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         
-        {/* 🔥 REFACTORED GRID SYSTEM:
-          Uses precise custom track sizing on large screens to cleanly map layout widths:
-          Col 1 (Brand) gets 2 fractions, Cols 2-4 get 1 fraction, Col 5 (Map) gets 1.2 fractions.
-        */}
+        
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[2fr_1fr_1fr_1fr_1.2fr] lg:gap-12">
           
           {/* Column 1: Brand Info & Social Vectors */}
@@ -80,7 +77,7 @@ export default function Footer() {
             <div className="mt-2 flex items-center gap-3">
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/nirayam-technologies-b4201941b/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn Profile"
@@ -93,7 +90,7 @@ export default function Footer() {
 
               {/* YouTube */}
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/channel/UCMVZmf6vlu0SqCWBKvzL3kQ"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube Channel"
@@ -106,7 +103,7 @@ export default function Footer() {
 
               {/* Instagram */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/nirayam.tech/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram Page"
@@ -173,7 +170,7 @@ export default function Footer() {
                   <Phone size={12} className="text-primary shrink-0" />
                   <span>+91 80722 71874.</span>
                 </a>
-                <a href="mailto:hello@nirayam.tech" className="flex items-center gap-2 hover:text-primary transition-colors">
+                <a href="mailto:hello@nirayam.co\" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Mail size={12} className="text-primary shrink-0" />
                   <span>nirayamtechnologies@gmail.com</span>
                 </a>
