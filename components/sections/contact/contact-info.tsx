@@ -33,7 +33,8 @@ group
     border
     border-border
     bg-card
-    p-6
+    p-3
+    justify-items-center
     transition-all
     duration-300
     hover:-translate-y-1
@@ -47,21 +48,19 @@ group
   className="
     mb-6
     flex
-    h-28
-    w-28
+    h-20
+    w-20
     items-center
     justify-center
     rounded-3xl
-   
-    p-5
   "
 >
   <Image
     src={item.image}
     alt={item.title}
-    width={100}
-    height={100}
-    className="object-contain"
+    width={150}
+    height={150}
+    className="object-contain justify-center"
   />
 </div>
               <h3

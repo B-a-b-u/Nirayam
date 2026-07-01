@@ -260,6 +260,8 @@ export default function ContactForm() {
                     <Textarea
                     disabled={loading}
                         rows={7}
+                          className="min-h-[150px]"
+
                         placeholder="Tell us about your project..."
                         {...register("message")}
                     />

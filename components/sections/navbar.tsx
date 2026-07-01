@@ -146,7 +146,7 @@ export default function NavBar() {
                     {isActive && (
                       <motion.span
                         layoutId="activeTabPill"
-                        className="absolute inset-0 z-0 rounded-full bg-secondary dark:bg-accent border border-primary/20"
+                        className="absolute inset-0 z-0 rounded-full bg-secondary dark:bg-secondary border border-primary/20"
                         transition={{ type: "spring", stiffness: 380, damping: 30 }}
                       />
                     )}
