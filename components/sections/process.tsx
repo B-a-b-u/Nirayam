@@ -43,7 +43,7 @@ export default function Process() {
 
             return (
               <div
-                key={step.number} // Using a strict ID key instead of map index for better DOM performance
+                key={step.number}
                 className={`group relative flex flex-col items-start gap-6 md:flex-row md:items-center ${
                   isEven ? "md:flex-row-reverse" : ""
                 }`}

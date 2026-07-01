@@ -166,13 +166,13 @@ export default function Footer() {
               </div>
 
               <div className="space-y-2 pt-1 border-t border-border/40">
-                <a href="tel:+919876543210" className="flex items-center gap-2 hover:text-primary transition-colors">
+                <a href="tel:+918072271874" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Phone size={12} className="text-primary shrink-0" />
                   <span>+91 80722 71874.</span>
                 </a>
-                <a href="mailto:hello@nirayam.co\" className="flex items-center gap-2 hover:text-primary transition-colors">
+                <a href="mailto:hello@nirayam.com" className="flex items-center gap-2 hover:text-primary transition-colors">
                   <Mail size={12} className="text-primary shrink-0" />
-                  <span>nirayamtechnologies@gmail.com</span>
+                  <span>hello@nirayam.com</span>
                 </a>
                 <div className="flex items-center gap-2 text-muted/80">
                   <Clock size={12} className="text-primary shrink-0" />

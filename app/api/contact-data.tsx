@@ -2,7 +2,7 @@
 export const contactInfo = [
   {
     title: "Email",
-    value: "nirayamtechnologies@gmail.com",
+    value: "hello@nirayam.com",
     description: "For project enquiries",
     image: "/contact/email.svg",
   },
