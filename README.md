@@ -1,36 +1,252 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Nirayam Technologies - Official Landing Page
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8?logo=tailwindcss)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-First, run the development server:
+The official landing page of **Nirayam Technologies**, built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS**.
+
+This website showcases our services, case studies, company information, contact system, and modern web development capabilities while following industry best practices for performance, accessibility, SEO, and responsive design.
+
+---
+
+## 🌐 Live Site
+
+> https://www.nirayam.com
+
+---
+
+# ✨ Features
+
+- 🎨 Modern responsive UI
+- 🌙 Dark / Light mode
+- 📱 Mobile-first design
+- ⚡ Built with Next.js App Router
+- 🎯 SEO optimized
+- 📈 Open Graph & Twitter metadata
+- 📄 Custom 404 page
+- 📩 Contact form with validation
+- 📦 Supabase integration
+- 🛡 Type-safe forms using Zod
+- 🚀 Fast page loading
+- ♿ Accessible components
+- 🎭 Smooth animations
+- 🖼 Optimized images using Next/Image
+- 📊 Dynamic Case Studies section
+- 📞 Professional Contact section
+- 📄 About company section
+- 💼 Services showcase
+- ⭐ Trust & credibility section
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide Icons
+
+## Forms
+
+- React Hook Form
+- Zod
+
+## Backend
+
+- Next.js Route Handlers
+- Supabase
+
+## Deployment
+
+- Vercel
+
+---
+
+# 📸 Website Sections
+
+- Hero
+- Services
+- About Us
+- Why Choose Us
+- Case Studies
+- Contact Information
+- Contact Form
+- Footer
+
+---
+
+# 📩 Contact Form
+
+The landing page includes a fully functional contact form with:
+
+- Client-side validation
+- Zod schema validation
+- React Hook Form
+- Loading state
+- Success & error notifications
+- Supabase database integration
+
+Submitted enquiries are securely stored inside Supabase.
+
+---
+
+# 📈 SEO
+
+The project includes:
+
+- Metadata API
+- Open Graph
+- Twitter Cards
+- Robots configuration
+- Canonical URLs
+- Responsive viewport
+- Semantic HTML
+- Optimized images
+- Dynamic page titles
+
+---
+
+# 🎨 Design Principles
+
+The UI follows modern SaaS design practices:
+
+- Minimalistic
+- Responsive
+- High readability
+- Consistent spacing
+- Accessible color contrast
+- Modern typography
+- Smooth interactions
+
+---
+
+# 🚀 Getting Started
+
+## Clone the repository
+
+```bash
+git clone https://github.com/yourusername/nirayam-landing-page.git
+```
+
+## Navigate to project
+
+```bash
+cd nirayam-landing-page
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Start development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 🏗 Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start production server
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 🧹 Lint
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+```
+
+---
+
+# ⚙ Environment Variables
+
+Create a `.env.local`
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+
+SUPABASE_SERVICE_ROLE_KEY=
+```
+
+---
+
+
+# 🎯 Lighthouse Goals
+
+- Performance ⭐⭐⭐⭐⭐
+- Accessibility ⭐⭐⭐⭐⭐
+- Best Practices ⭐⭐⭐⭐⭐
+- SEO ⭐⭐⭐⭐⭐
+
+---
+
+# 🔮 Future Improvements
+
+- Blog
+- Portfolio CMS
+- Client Dashboard
+- Testimonials
+- Careers Page
+- Newsletter
+- Multi-language Support
+- Analytics Dashboard
+
+---
+
+# 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+If you'd like to improve the project:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Developed By
+
+**Nirayam Technologies**
+
+Building scalable software, intelligent automation, and modern digital experiences.
+
+🌐 Website: https://www.nirayam.com
+
+📧 Email: contact@nirayam.com
+
+---

@@ -168,10 +168,10 @@ export default function RootLayout({
     <html
       suppressHydrationWarning
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} select-none h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-background text-foreground flex flex-col font-sans">
-        {/* 🚀 INJECTED ORGANIZATION STRUCTURE MATRIX */}
+        {/* INJECTED ORGANIZATION STRUCTURE MATRIX */}
         <OrganizationSchema />
         
         <ThemeProvider
